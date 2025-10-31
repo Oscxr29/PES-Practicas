@@ -26,7 +26,7 @@ const estudiantes = [
     {nombre:"Pablo", nota:10}
 ]
 
-soloNombre = estudiantes.map((estudiante)=> estudiante.nombre)
+const soloNombre = estudiantes.map((estudiante)=> estudiante.nombre)
 console.log(soloNombre)
 
 

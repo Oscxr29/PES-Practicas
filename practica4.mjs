@@ -20,25 +20,25 @@
 // • Verifica si todos aprobaron.
 // • Suma las notas con .reduce().
 
-const estudiantes = [
-    {nombre:"jose",nota:5},
-    {nombre:"Mario", nota:8},
-    {nombre:"Pablo", nota:10}
-]
+// const estudiantes = [
+//     {nombre:"jose",nota:5},
+//     {nombre:"Mario", nota:8},
+//     {nombre:"Pablo", nota:10}
+// ]
 
-const soloNombre = estudiantes.map((estudiante)=> estudiante.nombre)
-console.log(soloNombre)
-
-
-console.log(estudiantes.filter((notas)=> notas.nota>=6))
+// const soloNombre = estudiantes.map((estudiante)=> estudiante.nombre)
+// console.log(soloNombre)
 
 
+// console.log(estudiantes.filter((notas)=> notas.nota>=6))
 
-const todosAprobados = estudiantes.every(estudiante => estudiante.nota >=6)
-console.log(todosAprobados)
 
-const sumarnotas = estudiantes.reduce((first, second) => first + second.nota,0);
-console.log(sumarnotas)
+
+// const todosAprobados = estudiantes.every(estudiante => estudiante.nota >=6)
+// console.log(todosAprobados)
+
+// const sumarnotas = estudiantes.reduce((first, second) => first + second.nota,0);
+// console.log(sumarnotas)
 
 
 
@@ -55,19 +55,19 @@ console.log(sumarnotas)
 //     {nombre:"Monitor", precio:300, stock:2}
 // ];
 
-//producto mayor a 100
+// // producto mayor a 100
 // const mayor100 = inventario.find(producto => producto.precio > 100);
 // console.log(mayor100)
 
-//indice del producto laptop 
+// // indice del producto laptop 
 // const indiceLaptop = inventario.findIndex(producto => producto.nombre === "Laptop");
 // console.log(indiceLaptop)
 
-//producto agotado 
+// // producto agotado 
 // const productoAgotado = inventario.some(producto => producto.stock === 0);
 // console.log(productoAgotado)
 
-// Obtén un nuevo arreglo con el nombre y el precio con IVA (13%).
+// // Obtén un nuevo arreglo con el nombre y el precio con IVA (13%).
 // const precioConIVA = inventario.map(producto => ({
 //     nombre: producto.nombre,
 //     precioConIVA: (producto.precio * 1.13).toFixed(2)
